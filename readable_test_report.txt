@@ -1,0 +1,28 @@
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\UserApiTest::super_admin_can_create_company_and_manager(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\UserApiTest::manager_can_view_all_managers_and_employees(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\UserApiTest::manager_can_update_own_profile(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\UserApiTest::manager_can_manage_employees_in_same_company(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   WARN  Metadata found in doc-comment for method Tests\Feature\UserApiTest::employee_can_view_other_employees(). Metadata in doc-comments is deprecated and will no longer be supported in PHPUnit 12. Update your test code to use attributes instead.
+
+   PASS  Tests\Unit\ExampleTest
+  ✓ that true is true
+
+   PASS  Tests\Feature\ExampleTest
+  ✓ the application returns a successful response                                                                                                                                                                                      0.14s  
+
+   PASS  Tests\Feature\UserApiTest
+  ✓ super admin can create company and manager                                                                                                                                                                                         0.78s  
+  ✓ manager can view all managers and employees                                                                                                                                                                                        0.04s  
+  ✓ manager can update own profile                                                                                                                                                                                                     0.04s  
+  ✓ manager can manage employees in same company                                                                                                                                                                                       0.05s  
+  ✓ employee can view other employees                                                                                                                                                                                                  0.04s  
+
+  Tests:    7 passed (113 assertions)
+  Duration: 1.15s
+
+Note : Warn bukan masalah fatal, hanya peringatan bahwa PHPUnit 12 akan menghapus metadata di doc-comment. Untuk menghindari peringatan ini, kita bisa menggunakan attribute.
