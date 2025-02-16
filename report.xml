@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="C:\laragon\www\paketur-laravel\phpunit.xml" tests="7" assertions="113" errors="0" failures="0" skipped="0" time="1.229916">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.007757">
+      <testsuite name="Tests\Unit\ExampleTest" file="C:\laragon\www\paketur-laravel\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.007757">
+        <testcase name="test_that_true_is_true" file="C:\laragon\www\paketur-laravel\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.007757"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="6" assertions="112" errors="0" failures="0" skipped="0" time="1.222159">
+      <testsuite name="Tests\Feature\ExampleTest" file="C:\laragon\www\paketur-laravel\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.207075">
+        <testcase name="test_the_application_returns_a_successful_response" file="C:\laragon\www\paketur-laravel\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.207075"/>
+      </testsuite>
+      <testsuite name="Tests\Feature\UserApiTest" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" tests="5" assertions="111" errors="0" failures="0" skipped="0" time="1.015084">
+        <testcase name="super_admin_can_create_company_and_manager" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" line="24" class="Tests\Feature\UserApiTest" classname="Tests.Feature.UserApiTest" assertions="11" time="0.818017"/>
+        <testcase name="manager_can_view_all_managers_and_employees" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" line="51" class="Tests\Feature\UserApiTest" classname="Tests.Feature.UserApiTest" assertions="45" time="0.065998"/>
+        <testcase name="manager_can_update_own_profile" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" line="98" class="Tests\Feature\UserApiTest" classname="Tests.Feature.UserApiTest" assertions="2" time="0.040740"/>
+        <testcase name="manager_can_manage_employees_in_same_company" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" line="115" class="Tests\Feature\UserApiTest" classname="Tests.Feature.UserApiTest" assertions="8" time="0.052197"/>
+        <testcase name="employee_can_view_other_employees" file="C:\laragon\www\paketur-laravel\tests\Feature\UserApiTest.php" line="144" class="Tests\Feature\UserApiTest" classname="Tests.Feature.UserApiTest" assertions="45" time="0.038132"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
