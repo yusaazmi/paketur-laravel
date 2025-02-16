@@ -43,37 +43,20 @@ Ini adalah requirement untuk menjalankan aplikasi:
     ```bash
     php artisan db:seed
     ```
-10. Untuk menjalankan swagger anda dapat melakukan perintah berikut:
-    ```bash
-    php artisan l5-swagger:generate
-    ```
-    kemudian akses ke 
-    ```bash
-    http://127.0.0.1:8000/api/documentation
-    ```
-11. Untuk menjalankan unit test anda dapat melakukan perintah berikut:
+10. Untuk menjalankan unit test anda dapat melakukan perintah berikut:
     ```bash
     php artisan test
     ```
-12. Untuk generate code coverage anda dapat melakukan perintah berikut :
+11. Untuk generate code coverage anda dapat melakukan perintah berikut :
     ```bash
     php vendor/bin/phpunit --coverage-html reports
     ```
     dan kemudian anda bisa membuka reports/index.html melalui explore
-13. Kemudian anda juga dapat mengganti konfigurasi mailtrap di file .env sesuai dengan kredensial anda
 14. Untuk menjalankan aplikasi anda dapat menggunakan perintah berikut :
     ```bash
     php artisan serve
     ```
-    Kemudian untuk CRUD anda bisa akses 
+    Kemudian masuk ke
     ```bash
-    http://127.0.0.1:8000/
-    ``` 
-    Dan untuk CRUD Via API
-    ```bash
-    http://127.0.0.1:8000/api/category
-    ```
-15. Untuk memproses antrian jalankan perintah :
-    ```bash
-    php artisan queue:work
+    http://127.0.0.1:8000/api/login
     ```
